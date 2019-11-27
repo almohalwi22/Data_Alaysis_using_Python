@@ -1,3 +1,1 @@
-# Travel Destinations
-
-A simple app to keep track of destinations I'd like to visit.
+This project have helped me to demonstrate and improve my data analysis skill as it cover most of aspects in Python for data analysis 
