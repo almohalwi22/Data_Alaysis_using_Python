@@ -1,3 +1,3 @@
-# Travel Destinations
+Data Analysis project using Python
 
-A simple app to keep track of destinations I'd like to visit.
+This project will help you to understand and demonstare the most important skills for dta analysis.
