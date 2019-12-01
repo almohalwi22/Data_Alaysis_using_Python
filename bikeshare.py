@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 #import models 
+||||||| merged common ancestors
+=======
+# This project will help you to improve your data analysis skills
+>>>>>>> 1a81438f70d7c7290f5813ada48f4ad66d8a111a
 import time
 import pandas as pd
 import numpy as np
@@ -30,6 +35,7 @@ def get_filters():
     
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     day =  input("Please Enter the day name: ").lower()
+    #This code is added to restrict the entring days
     while day not in ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday']:
         day = input("Please Enter the correct month name").lower()
     
