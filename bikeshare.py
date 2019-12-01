@@ -1,3 +1,4 @@
+#import models 
 import time
 import pandas as pd
 import numpy as np
@@ -29,8 +30,8 @@ def get_filters():
     
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     day =  input("Please Enter the day name: ").lower()
-    #while month not in ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday']:
-        #month = input("Please Enter the correct month name").lower()
+    while day not in ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday']:
+        day = input("Please Enter the correct month name").lower()
     
     print('-'*40)
     return city, month, day
